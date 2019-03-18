@@ -18,7 +18,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		log.Printf("title: %s\n", title)
 	}
 
-	babbler := NewBabbler()
+	babbler := babble.NewBabbler()
 	babbler.Count = 3
 	babbler.Separator = " "
 
