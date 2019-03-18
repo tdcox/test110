@@ -17,7 +17,11 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		log.Printf("title: %s\n", title)
 	}
 
-	fmt.Fprintf(w, "Hello from:  "+title+"\n")
+	babbler := NewBabbler()
+	babbler.Count = 3
+	babbler.Separator = " "
+
+	fmt.Fprintf(w, babbler.Babble()+"\n")
 }
 
 func main() {
