@@ -11,7 +11,7 @@ PKGS := $(subst  :,_,$(PKGS))
 BUILDFLAGS := ''
 CGO_ENABLED = 0
 VENDOR_DIR=vendor
-GOPATH := /home/jenkins/go/
+GOPATH := /workspace/source/
 
 all: build
 
