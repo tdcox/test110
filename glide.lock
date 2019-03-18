@@ -1,0 +1,8 @@
+hash: 05310853cbfa1b43d2aa129ac5a0f22b15615be7cd5f8191cf90be97e0158121
+updated: 2019-03-18T18:06:58.169165Z
+imports:
+- name: github.com/tdcox/test110
+  version: ac82aa57053976d4f55af8d898de3fecd1bf7dd3
+  subpackages:
+  - babble
+testImports: []
