@@ -1,6 +1,0 @@
-package: .
-import:
-- package: github.com/tdcox/test110
-  version: ^0.0.5
-  subpackages:
-  - babble
