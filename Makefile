@@ -25,7 +25,7 @@ test:
 full: $(PKGS)
 
 install:
-	GOBIN=${GOPATH}/bin $(GO) install -ldflags $(BUILDFLAGS) $(MAIN_GO)
+	GOBIN=${GOPATH}/bin $(GO) install -ldflags $(BUILDFLAGS) *.go
 
 fmt:
 	@FORMATTED=`$(GO) fmt $(PACKAGE_DIRS)`
